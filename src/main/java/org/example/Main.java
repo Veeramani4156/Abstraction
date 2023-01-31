@@ -14,6 +14,10 @@ class dog extends animal{
 }
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        cat c1 = new cat();
+        dog d1 = new dog();
+
+        d1.AnimalNoise();
+        c1.AnimalNoise();
     }
 }
